@@ -4,8 +4,7 @@ def get_value(var_name, default=0):
     except KeyError:
         return default
 
-# Example usage
-x = 10  # comment this line to simulate "missing variable"
+x = 10 
 
 value = get_value('x')
 print(f"Value of x: {value}")
